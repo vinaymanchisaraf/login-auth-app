@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+
+
+.login-container{
+  width:360px;
+  padding:40px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+  text-align:center;
+  color:white;
+}
+
+
+.login-container h2{
+  margin-bottom:25px;
+  font-size:28px;
+}
+
+
+
+.input-group{
+  margin-bottom:18px;
+}
+
+.input-group input{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  outline:none;
+  font-size:14px;
+}
+
+
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#ff7a18;
+  background: linear-gradient(to right,#ff7a18,#ffb347);
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+
+
+.error{
+  margin-top:10px;
+  color:#ffb4b4;
+}
+
+
+
+.welcome-container{
+  padding:50px;
+  background:white;
+  border-radius:12px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.welcome-container h1{
+  color:#667eea;
+  margin-bottom:10px;
+}
+
+.welcome-container button{
+  margin-top:20px;
+}
